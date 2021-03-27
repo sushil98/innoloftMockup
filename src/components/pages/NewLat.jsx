@@ -32,7 +32,7 @@ class NewLat extends Component {
         return (
             <>
                 <div className="mapBox">
-                    {/* <h3>Longitude - {this.state.lng} </h3> */}
+                    {/* <h3>Longitude - {this.state.lng} </h3>  */}
                     {/* <h3>Latitude - {this.state.lat} </h3> */}
                     <SimpleMap longitude={this.state.lng} latitude={this.state.lat} />
                 </div>

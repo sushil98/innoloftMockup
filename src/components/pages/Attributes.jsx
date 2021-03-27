@@ -45,14 +45,14 @@ class Description extends Component {
 
                 {
                     this.state.show ?
-                        <h3>Categories</h3>
+                        <h3 className='attList' >Categories</h3>
                         :
                         null
                 }
                 <br />
                 {
                     this.state.show ?
-                        this.state.procategory.map((list) => <p>{list.name}</p>)
+                        this.state.procategory.map((list) => <p className='attList'>{list.name}</p>)
                         :
                         null
                 }
@@ -70,7 +70,7 @@ class Description extends Component {
 
                 {
                     this.state.show ?
-                        <h3>Business Models</h3>
+                        <h3 className='attList'>Business Models</h3>
                         :
                         null
                 }
@@ -78,7 +78,7 @@ class Description extends Component {
 
                 {
                     this.state.show ?
-                        this.state.proBussModel.map((model) => <p>{model.name}</p>)
+                        this.state.proBussModel.map((model) => <p className='attList'>{model.name}</p>)
                         :
                         null
                 }

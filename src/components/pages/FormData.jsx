@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../../sass/home.scss'
 
 class FormData extends Component {
 
@@ -77,14 +77,14 @@ class FormData extends Component {
         <form ref="myForm" className="myForm">
           <input type="text" ref="name"  className="formField" />
          
-          <button onClick={(e)=>this.fSubmit(e)} className="myButton">submit </button>
+          <button onClick={(e)=>this.fSubmit(e)} className="myButton">ADD +</button>
         </form>
         <pre>
           {datas.map((data, i) =>
             <li key={i} className="myList">
               {i+1}. {data.name}
-              <button onClick={()=>this.fRemove(i)} className="myListButton">remove </button>
-              <button onClick={()=>this.fEdit(i)} className="myListButton">edit </button>
+              <button onClick={()=>this.fRemove(i)} className="myListButton">Delete - </button>
+              <button onClick={()=>this.fEdit(i)} className="myListButton">Edit </button>
             </li>
           )}
         </pre>

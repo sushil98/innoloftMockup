@@ -9,6 +9,7 @@ import Home from './Home'
 import Product from './Product'
 import Description from './Description'
 import Attributes from './Attributes'
+import '../../sass/home.scss'
 
 class Navigation extends Component {
   
@@ -17,11 +18,13 @@ class Navigation extends Component {
 <>
 
 <Router>
-      <div> 
-          <ul>
+  <div>
+      <div className='navbar'> 
+          <ul className='navbarMenu'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/product">Product</Link></li>         
           </ul>
+          </div>
         
 
           <Route exact path="/" component = {Home} />   

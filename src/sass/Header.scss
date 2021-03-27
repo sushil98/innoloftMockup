@@ -1,17 +1,17 @@
 *{padding: 0; margin: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif;}
 
+
 .headerSection{
     width: 100%;
-    height: auto;
-}
-.imgSection {
-    background-color: blue;
+    background-color: #323b49;
+    position: relative;
+    bottom: 122px;
 
 }
-
 .imgSection img{
-    width: 20%;
-    height: auto;
-    float: left;
-    
+   width: 20%;
+   height: auto;
+   margin-right:1000px ;
+   padding: 12px 0px;
+   
 }

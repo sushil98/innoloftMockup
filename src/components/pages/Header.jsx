@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo2.png'
+import logo from '../../images/logo.png'
 import '../../sass/Header.scss'
 
 class Header extends Component {

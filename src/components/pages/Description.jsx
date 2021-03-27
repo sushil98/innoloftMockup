@@ -37,8 +37,8 @@ class Description extends Component {
             <>
            <button className='cardBtn' onClick={() => this.ToggleHandler()}>Description</button>
                 {
-                    this.state.show ?
-                        <p>{this.state.productDesp}</p>
+                    this.state.show ?  
+                        <p style={{textAlign:'left'}}>{this.state.productDesp}</p>
                         :
                         null}
 

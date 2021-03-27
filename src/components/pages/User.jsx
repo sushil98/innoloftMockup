@@ -36,7 +36,7 @@ class User extends Component {
         console.log(this.state.user);
         return (
             <>
-            <div className="userSection">
+            <div className="userBox">
                 <div className="userImage">
                     <img src={this.state.image} alt="user imge"/>
                 </div>
