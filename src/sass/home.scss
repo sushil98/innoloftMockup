@@ -28,6 +28,7 @@
 .userImage img{
     width: 350px;
     height: 280px;
+    border-radius: 25px;
    
 }
 
@@ -96,19 +97,23 @@
     font-size: 20px;
 }
 
+.submitBtn{
+    position:'relative' ;
+     top:'40px' ;
+     right:'320px';
+     padding:'5px 25px';
+     background-color:'#0D75BF' ;
+     color: #fff;
+     font-size: 20px;
+}
+
 
 //responsive
 
 @media (max-width:1100px){
-//     .home{
-//         border: 2px solid red;
-//         display: flex;
-//         flex-direction: column;
-//     }
-// .userBox{
-//     position: relative;
-//     left: 50px;
-//     bottom:120px
-// }
+.home{
+    display: flex;
+    flex-direction: column;
+}
 
 }

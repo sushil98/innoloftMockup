@@ -21,8 +21,11 @@ class Navigation extends Component {
   <div>
       <div className='navbar'> 
           <ul className='navbarMenu'>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/product">Product</Link></li>         
+        
+            <li><i class="fa fa-home " aria-hidden="true"> 
+              <Link to="/"> Home</Link></i></li>
+            <li><i class="fa fa-product-hunt" aria-hidden="true"></i>
+              <Link to="/product"> Product</Link></li>         
           </ul>
           </div>
         

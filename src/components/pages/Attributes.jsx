@@ -92,8 +92,27 @@ class Description extends Component {
                 <br />
                 {
                     this.state.show ?
-                        <label htmlFor="#"> <input type="checkbox" name="trl" id="trl" /> TRL</label>
-                        //   <input type="checkbox" name="trl" id="trl"/>
+                        <label htmlFor="#">TRL -
+                    <select id="trlSection">
+                                <option value="trl1">Basic principles observed and reported</option>
+                                <option value="trl2">Technology concept and/or application formulated.</option>
+                                <option value="trl3">Analytical and experimental critical function and/or characteristic proof of concept.</option>
+                                <option value="trl4">Component and/or breadboard validation in laboratory environment</option>
+                                <option value="trl5" >System/subsystem model or prototype demonstration in a relevant environment</option>
+                                <option value="trl6" >System prototype demonstration in an operational environment.</option>
+                                <option value="trl7" >Actual system completed and qualified through test and demonstration.</option>
+                                <option value="trl8" >Actual system proven through successful mission operations</option>
+                            </select>
+                        </label>
+
+                        :
+                        null
+                }
+
+
+                {
+                    this.state.show ?
+                        <button style={{position:'relative' , top:'40px' , right:'320px', padding:'7px 30px', background:'#0D75BF' , borderRadius:'7px', color :'#fff'}} type= 'submit'>Submit</button>
                         :
                         null
                 }

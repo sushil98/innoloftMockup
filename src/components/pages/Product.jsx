@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import Header from './Header';
 
 class Product extends Component {
     
     render() { 
         return ( 
         <>
-        <h1>Product</h1>
+      <div className="productNavba">
+          <Header/>
+      </div>
         </> );
     }
 }

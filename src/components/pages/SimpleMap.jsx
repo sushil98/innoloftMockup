@@ -6,20 +6,15 @@ import {Map,  InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 export class SimpleMap extends Component {
     render() {
         const style = {
-          // @media (max-width:1100px){
-            
-          //       border: 2px solid red;
-          //       display: flex;
-          //       flex-direction: column;
+      borderRadius:'25px',
             }
           
 
           const containerStyle = {
-            // position: 'relative',  
             width: '30%',
             height: '50%',
             marginLeft:'270px',
-      
+      borderRadius:'25px'
           }
         return (
     //   <Map google={this.props.google} zoom={14}>
@@ -29,7 +24,7 @@ export class SimpleMap extends Component {
     <Map
     google={this.props.google}
     containerStyle={containerStyle}
-    // style={style}
+    style={style}
     initialCenter={{
       lat: this.props.latitude,
       lng: this.props.longitude

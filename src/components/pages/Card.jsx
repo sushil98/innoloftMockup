@@ -42,7 +42,7 @@ class Card extends Component {
                     </div>
 
                     <div className="productInfo">
-                        <h2>product - {this.state.productTitle}</h2>
+                        <h2>Product - {this.state.productTitle}</h2>
                        
                         <p> Type - {this.state.productType}</p>
                     </div>
